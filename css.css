@@ -1,0 +1,33 @@
+.div{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 200px;
+    font-size: 40px;
+    grid-gap:5px;
+    
+    
+    
+}
+
+.div1{
+
+    background-color: rgb(243, 239, 235);
+
+}
+
+.div2{
+
+    background-color: rgb(252, 245, 245);
+}
+
+.div3{
+    background-color: rgb(244, 240, 240);
+    height: 750px;
+
+}   
+
+.div4{
+    background-color: rgb(244, 240, 240);
+
+}

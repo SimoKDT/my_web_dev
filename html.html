@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css.css">
+</head>
+<body>
+   <div class="div">
+
+      <div class="div1"><img src="sk.png" alt="Sollefteå Kommun"></div>
+      <div class="div2"></div>
+      <div class="div3">
+         <button onclick="
+            console.log(`Antalet köpte varor är: ${antalKöp}`);
+            ">Visa antal köp</button>
+         <button onclick="
+            antalKöp=antalKöp+1;
+            console.log(`Antalet köpte varor är: ${antalKöp}`);
+
+         ">+1</button>
+         <button onclick="
+            antalKöp=antalKöp+2;
+            console.log(`Antalet köpte varor är: ${antalKöp}`);
+         ">+2</button>
+         <button onclick="
+            antalKöp=0;
+            console.log(`inga varor finns i korgen: ${antalKöp}`);
+
+         ">Återställ korgen</button>
+      </div>
+      <div class="div4"></div>
+
+   </div>
+   <script src="js.js"></script>
+</body>
+</html>
+

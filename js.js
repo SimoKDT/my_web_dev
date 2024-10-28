@@ -1,0 +1,1 @@
+let antalKöp=0;
